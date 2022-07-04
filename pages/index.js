@@ -20,10 +20,10 @@ export default function Home() {
                       </p>
 
                       
-                      <div class="mt-3 flex gap-1">
+                      <div className="mt-3 flex gap-1">
                           <a href="https://www.linkedin.com/in/muhammad-adnan-aab80b211/">
                             <svg
-                                class="h-12 w-12 hover:translate-y-1"
+                                className="h-12 w-12 hover:translate-y-1"
                                 viewBox="0 0 382 382"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -35,7 +35,7 @@ export default function Home() {
                           </a>
                           
                           <a href="mailto:naravaya04@gmail.com">
-                            <svg class="h-12 w-12 hover:translate-y-1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <svg className="h-12 w-12 hover:translate-y-1" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#ECEFF1" d="M64 64h384v384H64z"/>
                                 <path fill="#CFD8DC" d="M256 296.38L448 448V148.67z"/>
                                 <path
@@ -47,7 +47,7 @@ export default function Home() {
 
                           <a href="http://github.com/muhammadnan">
                             <svg
-                                class="h-12 w-12 hover:translate-y-1"
+                                className="h-12 w-12 hover:translate-y-1"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24"
                             >
