@@ -1,4 +1,4 @@
-import projects from "../store/skills";
+import projects from "../store/projects";
 
 export default function Projects() {
     
