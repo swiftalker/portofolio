@@ -1,7 +1,7 @@
 
 export default function Footer() {
     return (
-        <footer className={`bg-white relative border-b-4 border-green-400`}>
+        <footer className={`bg-white relative border-b-4 border-blue-400`}>
             <div className="container mx-auto">
                 <div className="flex flex-col items-center">
                     <div className="sm:w-2/3 text-center py-1">

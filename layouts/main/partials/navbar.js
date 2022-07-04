@@ -34,11 +34,11 @@ export default class Navbar extends Component {
         if (scrollpos > 10) {
             document.getElementById("nav").classList.add("bg-blue-400");
             document.getElementById("nav").classList.add("border-t-4");
-            document.getElementById("nav").classList.add("border-green-200");
+            document.getElementById("nav").classList.add("border-blue-200");
         } else {
             document.getElementById("nav").classList.remove("bg-blue-400");
             document.getElementById("nav").classList.remove("border-t-4");
-            document.getElementById("nav").classList.remove("border-green-200");
+            document.getElementById("nav").classList.remove("border-blue-200");
         }
 
         const currentScrollPosition =
