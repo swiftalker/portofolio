@@ -65,13 +65,12 @@ export default function Projects() {
                                         {project.description}
                                     </p>
                                     <div className="flex flex-wrap mt-2">
-                                        {project.technologies}
-                                        {/* {project.technologies.map((tech, index) => {
+                                        {project.technologies?.map((tech, index) => {
                                             return (<div key={index}
                                                 className="bg-green-200 rounded px-2 py-1 mr-2 mb-2 text-green-800">
                                                 {tech}
                                             </div>)
-                                        })} */}
+                                        })}
                                     </div>
                                 </div>
                             </div>
