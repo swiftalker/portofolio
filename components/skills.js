@@ -12,9 +12,10 @@ export default function Skills() {
 
             <div className="flex flex-col lg:grid lg:grid-cols-4 lg:gap-4 p-10">
 
-                {skills.map((skill) => {
+                {skills.map((skill, index) => {
                     return (
                         <div
+                            key={index}
                             className="bg-white p-5 rounded-lg justify-center items-center text-center lg:mb-0 mb-4">
                             <div className="relative pb-2/3">
                                 {skill.image

@@ -1,6 +1,5 @@
-import projects from "../store/projects";
-
-export default function Projects() {
+export default function Projects(props) {
+    
     return (
         <section id="projects" className="flex flex-col min-h-screen py-4 px-4">
             <div className="flex justify-center items-center font-black italic lg:text-6xl text-2xl text-stone-900">
@@ -8,9 +7,9 @@ export default function Projects() {
             </div>
 
             <div className="flex flex-col lg:grid lg:grid-cols-3 lg:gap-4 p-10">
-                {projects.map((project) => {
+                {props.projects.map((project, index) => {
                     return (
-                        <div className="transition duration-500 ease-in-out transform hover:scale-105 lg:mb-0 mb-4">
+                        <div key={index} className="transition duration-500 ease-in-out transform hover:scale-105 lg:mb-0 mb-4">
                             <div className="relative pb-2/3">
                                 <img className="h-full w-full object-cover rounded-lg shadow-md"
                                      src={'/images/' + project.image}
@@ -19,7 +18,7 @@ export default function Projects() {
                             <div className="relative z-10 px-4 -mt-16">
                                 <div className="bg-white border p-6 rounded-lg shadow-lg">
                                     <div className="flex flex-row">
-                                        <a href={project.link} target="_blank">
+                                        <a href={project.link}>
                                             <h1 className="inline-flex text-gray-700 font-bold text-2xl mb-3 hover:text-gray-900 hover:cursor-pointer">
                                                 {project.title}
 
@@ -46,7 +45,7 @@ export default function Projects() {
                                             ? (<div className="inline-flex">
                                                 <span
                                                     className="mb-0 ml-1 mr-1 text-xl text-gray-600 font-body">•</span>
-                                                <a href={project.github_link} target="_blank">
+                                                <a href={project.github_link}>
                                                     <svg
                                                         className="w-6 h-6 mt-1"
                                                         xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +63,8 @@ export default function Projects() {
                                         {project.description}
                                     </p>
                                     <div className="flex flex-wrap mt-2">
-                                        {project.technologies.map((tech) => {
-                                            return (<div
+                                        {project.technologies.map((tech, index) => {
+                                            return (<div key={index}
                                                 className="bg-green-200 rounded px-2 py-1 mr-2 mb-2 text-green-800">
                                                 {tech}
                                             </div>)

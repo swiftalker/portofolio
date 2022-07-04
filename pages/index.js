@@ -12,11 +12,11 @@ export default function Home() {
                 <div className="flex flex-col items-center md:flex-row md:justify-between md:gap-x-24 px-20 md:py-20 lg:py-20">
                   <div>
                       <h1 className="text-3xl font-bold text-neutral-50">
-                        Hi there, I'm <span className="text-white font-black bg-clip-text text-transparent">Adnan Muhammad</span> 👋</h1>
+                        Hi there, Im <span className="text-white font-black bg-clip-text text-transparent">Adnan Muhammad</span> 👋</h1>
                       <p className="mt-6 text-xl leading-9 text-neutral-50">
                           Full Stack Developer based in Bogor, Indonesia.<br />
-                          I'm a <span className="text-white font-black bg-clip-text text-transparent">Software Enginer</span> who started learning programming since 2018 and likes to explore things.<br/>
-                          I'm interested with UI/UX Design, Data Science, Machine Learning, Deep Learning security systems and programming design patterns (and anti-patterns).
+                          Im a <span className="text-white font-black bg-clip-text text-transparent">Software Enginer</span> who started learning programming since 2018 and likes to explore things.<br/>
+                          Im interested with UI/UX Design, Data Science, Machine Learning, Deep Learning security systems and programming design patterns (and anti-patterns).
                       </p>
 
                       

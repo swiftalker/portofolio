@@ -1,7 +1,7 @@
 import NavStyles from '../../../styles/Nav.module.css'
-import React, { Fragment, Component } from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline';
+import React, { Component } from 'react';
+import { Disclosure } from '@headlessui/react';
+import { MenuIcon, XIcon } from '@heroicons/react/outline';
 
 const navigation = [
     { name: 'Dashboard', href: '#', current: false },
