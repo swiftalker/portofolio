@@ -1,4 +1,6 @@
-export default function Projects(props) {
+import projects from "../store/skills";
+
+export default function Projects() {
     
     return (
         <section id="projects" className="flex flex-col min-h-screen py-4 px-4">
@@ -7,7 +9,7 @@ export default function Projects(props) {
             </div>
 
             <div className="flex flex-col lg:grid lg:grid-cols-3 lg:gap-4 p-10">
-                {props.projects.map((project, index) => {
+                {projects.map((project, index) => {
                     return (
                         <div key={index} className="transition duration-500 ease-in-out transform hover:scale-105 lg:mb-0 mb-4">
                             <div className="relative pb-2/3">
@@ -63,12 +65,13 @@ export default function Projects(props) {
                                         {project.description}
                                     </p>
                                     <div className="flex flex-wrap mt-2">
-                                        {project.technologies.map((tech, index) => {
+                                        {project.technologies}
+                                        {/* {project.technologies.map((tech, index) => {
                                             return (<div key={index}
                                                 className="bg-green-200 rounded px-2 py-1 mr-2 mb-2 text-green-800">
                                                 {tech}
                                             </div>)
-                                        })}
+                                        })} */}
                                     </div>
                                 </div>
                             </div>
