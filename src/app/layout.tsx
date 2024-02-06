@@ -3,7 +3,7 @@ import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 import { Navbar, Footer } from "@/components/main";
 
-const font = Plus_Jakarta_Sans({ subsets: ["sans"] });
+const font = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portofolio - Home",
