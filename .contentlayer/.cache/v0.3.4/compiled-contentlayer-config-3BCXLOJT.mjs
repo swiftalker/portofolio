@@ -205,6 +205,7 @@ var Authors = defineDocumentType(() => ({
   fields: {
     name: { type: "string", required: true },
     avatar: { type: "string" },
+    company: { type: "string" },
     email: { type: "string" },
     github: { type: "string" },
     layout: { type: "string" }
@@ -241,4 +242,4 @@ export {
   Blog,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-FVWMVXUN.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-3BCXLOJT.mjs.map

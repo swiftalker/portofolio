@@ -15,6 +15,7 @@ export type Authors = {
   type: 'Authors'
   name: string
   avatar?: string | undefined
+  company?: string | undefined
   email?: string | undefined
   github?: string | undefined
   layout?: string | undefined
