@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "cross-env INIT_CWD=$PWD contentlayer dev & next dev --turbo",
-    "build": "cross-env INIT_CWD=$PWD contentlayer dev & next build & cross-env NODE_OPTIONS='--experimental-json-modules' node ./src/scripts/postbuild.mjs",
+    "build": "cross-env INIT_CWD=$PWD contentlayer dev & next build",
     "start": "next start",
     "lint": "next lint"
   },
