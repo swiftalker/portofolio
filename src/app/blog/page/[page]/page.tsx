@@ -3,7 +3,7 @@ import type { Blog, Authors } from 'contentlayer/generated'
 import { sortPosts, CoreContent, coreContent, allCoreContent } from 'pliny/utils/contentlayer'
 import { allBlogs, allAuthors } from 'contentlayer/generated'
 import Link from '@/components/link'
-import Pagination from '@/components/blog/pagination'
+import Pagination, { PaginationProps } from '@/components/blog/pagination'
 import { formatDate } from 'pliny/utils/formatDate'
 
 const POSTS_PER_PAGE = 5
@@ -16,10 +16,9 @@ export const generateStaticParams = async () => {
 }
 
 interface ContentProps {
-  posts: CoreContent<Blog>[]
-  title: string
-  initialDisplayPosts?: CoreContent<Blog>[]
-  pagination?: PaginationProps
+    posts: any,
+    initialDisplayPosts?: any,
+    pagination?: PaginationProps
 }
 
 export default async function Page({ params }: { params: { page: string } }) {

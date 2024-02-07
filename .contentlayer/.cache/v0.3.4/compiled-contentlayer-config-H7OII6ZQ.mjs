@@ -27,7 +27,6 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 // src/data/siteMetadata.js
 var require_siteMetadata = __commonJS({
   "src/data/siteMetadata.js"(exports, module) {
-    "use strict";
     var siteMetadata2 = {
       title: "Portofolio",
       author: "Adnan Muhammad",
@@ -242,4 +241,4 @@ export {
   Blog,
   contentlayer_config_default as default
 };
-//# sourceMappingURL=compiled-contentlayer-config-3BCXLOJT.mjs.map
+//# sourceMappingURL=compiled-contentlayer-config-H7OII6ZQ.mjs.map

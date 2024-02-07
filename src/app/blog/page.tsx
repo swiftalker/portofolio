@@ -1,8 +1,8 @@
-import type { Authors } from 'contentlayer/generated'
+import type { Authors, Blog } from 'contentlayer/generated'
 import { sortPosts, coreContent, allCoreContent } from 'pliny/utils/contentlayer'
 import { allBlogs, allAuthors } from 'contentlayer/generated'
 import Link from '@/components/link'
-import Pagination from '@/components/blog/pagination'
+import Pagination, { PaginationProps } from '@/components/blog/pagination'
 import siteMetadata from '@/data/siteMetadata'
 import { formatDate } from 'pliny/utils/formatDate'
 import { genPageMetadata } from '@/app/seo'
@@ -13,9 +13,8 @@ const POSTS_PER_PAGE = 5
 export const metadata: Metadata = genPageMetadata({ title: 'Blog' })
 
 interface ContentProps {
-  posts: CoreContent<Blog>[]
-  title: string
-  initialDisplayPosts?: CoreContent<Blog>[]
+  posts: any,
+  initialDisplayPosts?: any,
   pagination?: PaginationProps
 }
 

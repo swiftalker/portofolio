@@ -1,0 +1,23 @@
+
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+      <title>Portofolio</title>
+      <link>/blog</link>
+      <description>Exploring code, sharing ideas, and crafting digital wonders together.</description>
+      <language>en-us</language>
+      <managingEditor>naravaya04@gmail.com (Adnan Muhammad)</managingEditor>
+      <webMaster>naravaya04@gmail.com (Adnan Muhammad)</webMaster>
+      <lastBuildDate>Mon, 01 Jan 2024 00:00:00 GMT</lastBuildDate>
+      <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+      
+  <item>
+    <guid>/blog/my-first-blog</guid>
+    <title>My First Blog!</title>
+    <link>/blog/my-first-blog</link>
+    <description>A brief story about my first portfolio blog!</description>
+    <pubDate>Mon, 01 Jan 2024 00:00:00 GMT</pubDate>
+    <author>naravaya04@gmail.com (Adnan Muhammad)</author>
+  </item>
+
+    </channel>
+  </rss>

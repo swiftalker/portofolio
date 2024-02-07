@@ -56,22 +56,11 @@ export default function Projects() {
                 <div className="container sticky max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 max-h-full">
 
                     <div className="mx-auto mt-4 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:mt-5 sm:pt-5 lg:mx-0 lg:max-w-none lg:grid-cols-3">
-                        {Data.sort((a, b) => b - a).map((project, index) => {
+                        {Data.sort((a: any, b: any) => b - a).map((project, index) => {
                             return (
                                 <div key={index} className="group relative rounded-lg bg-primary-50 hover:bg-primary-200 p-3 hover:drop-shadow-2xl border border-gray-200">
                                     <div className="justify-center items-center px-3 py-2">
                                         <BlurImage image={project.image} title={project.title} />
-                                        {/* <div className="aspect-[672/494] relative rounded-md transform overflow-hidden shadow-[0_2px_8px_rgba(15,23,42,0.08)] bg-slate-200">
-                                            <Image 
-                                                src={project.image} 
-                                                width="0"
-                                                height="0"
-                                                sizes="100vw"
-                                                alt="Project"
-                                                className="absolute inset-0 w-full h-full"
-                                                priority={true}
-                                            />
-                                        </div> */}
                                         <div className="flex flex-wrap items-center mt-6 h-16">
                                             <div className="flex flex-row space-x-0">
                                                 <ReturnToContent isTrue={typeof project.link === 'string' && project.link !== ''} link={project.link}>

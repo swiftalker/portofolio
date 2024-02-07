@@ -2,7 +2,7 @@
 import { usePathname } from 'next/navigation'
 import Link from '@/components/link'
 
-interface PaginationProps {
+export interface PaginationProps {
     totalPages: number
     currentPage: number
 }

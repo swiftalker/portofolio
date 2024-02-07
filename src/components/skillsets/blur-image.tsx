@@ -3,10 +3,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 
 interface BlurImageProps {
-  image: {
-    href: string;
-    // Add any other properties for the image object as needed
-  };
+  image: string;
+  title: string;
 }
 
 const BlurImage: React.FC<BlurImageProps> = ({ image, title }) => {
