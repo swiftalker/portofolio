@@ -19,11 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <Navbar />
+        <div className="min-h-screen">
+          <Navbar />
 
-        {children}
+          {children}
 
-        <Footer />
+          <Footer />
+        </div>
       </body>
 
     </html>

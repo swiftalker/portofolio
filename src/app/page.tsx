@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <>
       <HomeHero />
-      <HomeBlog />
-      <HomeProject />
+      <HomeBlog /> 
+      <HomeProject /> 
       <HomeSkillset />
     </>
   );

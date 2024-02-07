@@ -2,6 +2,10 @@
   @apply w-[240px] h-[320px];
 }
 
+.swiper-wrapper {
+  @apply max-w-md;
+}
+
 .swiper .swiper-slide {
   display: flex;
   align-items: center;

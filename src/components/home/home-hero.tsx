@@ -20,35 +20,35 @@ export default function Hero() {
                 <div
                 className="grid lg:grid-cols-4 grid-rows-1 space-x-2 items-center"
                 >
-                <div className="lg:col-span-3 lg:order-1 order-2 lg:mt-0 mt-4">
-                    <div className="lg:text-left text-justify text-balance ">
-                        <h1 className="text-2xl font-bold text-neutral-50">
-                            Hi there, Im <span className="text-white font-black bg-clip-text">Adnan Muhammad</span> 👋
-                        </h1>
-                        <div className="mt-6 text-lg leading-loose text-neutral-50">
-                            <ul className="list-none list-inside">
-                            <li>
-                                I'm a <b>Full Stack Web Developer</b> and <b>Software Engineer</b> based in Bogor, Indonesia 🌐💻
-                            </li>
-                            <li>
-                                Started coding in <b>2018</b>, freelancing since <b>2020</b>.
-                            </li>
-                            <li>
-                                I specialize in <b>Backend Programming</b>, <b>UI/UX Design</b>, <b>Data Science</b>, <b>Machine Learning</b>, and <b>system security</b>.
-                            </li>
-                            <li>
-                                Passionate about <b>Programming Design Patterns</b>, <b>Low-Level Languages (C, Zig, Rust, C++)</b>, and <b>Passionate with Elixir</b>.
-                            </li>
-                            </ul>
-                            Let's collaborate for innovative solutions!
+                    <div className="lg:col-span-3 lg:order-1 order-2 lg:mt-0 mt-4">
+                        <div className="lg:text-left text-justify text-balance ">
+                            <h1 className="text-2xl font-bold text-neutral-50">
+                                Hi there, Im <span className="text-white font-black bg-clip-text">Adnan Muhammad</span> 👋
+                            </h1>
+                            <div className="mt-6 text-lg leading-loose text-neutral-50">
+                                <ul className="list-none list-inside">
+                                <li>
+                                    I'm a <b>Full Stack Web Developer</b> and <b>Software Engineer</b> based in Bogor, Indonesia 🌐💻
+                                </li>
+                                <li>
+                                    Started coding in <b>2018</b>, freelancing since <b>2020</b>.
+                                </li>
+                                <li>
+                                    I specialize in <b>Backend Programming</b>, <b>UI/UX Design</b>, <b>Data Science</b>, <b>Machine Learning</b>, and <b>system security</b>.
+                                </li>
+                                <li>
+                                    Passionate about <b>Programming Design Patterns</b>, <b>Low-Level Languages (C, Zig, Rust, C++)</b>, and <b>Passionate with Elixir</b>.
+                                </li>
+                                </ul>
+                                Let's collaborate for innovative solutions!
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div className="lg:col-span-1 lg:order-2 order-1">
-                    <div className="relative justify-center items-center">
-                    <HomeCard />
+                    <div className="lg:col-span-1 lg:order-2 order-1">
+                        <div className="relative justify-center items-center">
+                            <HomeCard />
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
             </div>
